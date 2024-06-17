@@ -7,7 +7,7 @@ public class CafeExpreso implements Cafe {
     }
 
     @Override
-    public double costo() {
+    public double coste() {
         return 1.5;
     }
 }

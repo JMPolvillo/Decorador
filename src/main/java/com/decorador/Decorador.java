@@ -11,7 +11,7 @@ public abstract class Decorador implements Cafe {
         return cafeDecorado.descripcion();
     }
 
-    public double costo() {
-        return cafeDecorado.costo();
+    public double coste() {
+        return cafeDecorado.coste();
     }
 }

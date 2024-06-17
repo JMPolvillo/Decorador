@@ -7,7 +7,7 @@ public class CafeNormal implements Cafe {
     }
 
     @Override
-    public double costo() {
+    public double coste() {
         return 1.0;
     }
 }

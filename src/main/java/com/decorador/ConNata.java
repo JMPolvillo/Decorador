@@ -11,7 +11,7 @@ public class ConNata extends Decorador {
     }
 
     @Override
-    public double costo() {
-        return cafeDecorado.costo() + 0.7;
+    public double coste() {
+        return cafeDecorado.coste() + 0.7;
     }
 }
