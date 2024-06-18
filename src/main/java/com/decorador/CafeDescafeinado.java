@@ -1,13 +1,13 @@
 package com.decorador;
 
 public class CafeDescafeinado implements Cafe {
-    @Override
+    
     public String descripcion() {
         return "Café descafeinado";
     }
 
-    @Override
-    public double costo() {
+   
+    public double coste() {
         return 1.2;
     }
 }

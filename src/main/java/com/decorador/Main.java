@@ -5,11 +5,8 @@ public class Main {
 
         Cafe cafe = new CafeExpreso();
         
-        System.out.println("Descripción: " + cafe.descripcion() + ", Coste: €" + cafe.coste());
-
-        cafe = new ConLeche(cafe);
-        cafe = new ConChocolate(cafe);
-        cafe = new ConNata(cafe);
+        cafe = new ConLeche(cafe); 
+        cafe = new ConChocolate(cafe); 
 
         System.out.println("Descripción: " + cafe.descripcion() + ", Coste: €" + cafe.coste());
     }
